@@ -1,0 +1,65 @@
+{
+    "agent": "Nutrition Recommendation Agent",
+    "recommendation_score": "0.85 * nutritional_score + 0.15 * age_suitability",
+    "priority_profiles": {
+        "normal": {
+            "protein": 1.0,
+            "calcium": 0.9,
+            "iron": 0.9,
+            "fiber": 0.75,
+            "vitamin_a": 0.75,
+            "vitamin_c": 0.7
+        },
+        "moderate": {
+            "energy": 1.0,
+            "protein": 1.0,
+            "iron": 0.95,
+            "calcium": 0.9,
+            "zinc": 0.85,
+            "vitamin_a": 0.8,
+            "vitamin_c": 0.75
+        },
+        "severe": {
+            "energy": 1.0,
+            "protein": 1.0,
+            "iron": 0.95,
+            "calcium": 0.9,
+            "zinc": 0.9,
+            "vitamin_a": 0.85,
+            "vitamin_c": 0.8,
+            "vitamin_b12": 0.75
+        }
+    },
+    "excluded_food_terms": [
+        "alcohol",
+        "beer",
+        "wine",
+        "liquor",
+        "whiskey",
+        "vodka",
+        "rum",
+        "brandy",
+        "tobacco",
+        "cigarette",
+        "cigar",
+        "raw pork",
+        "raw beef",
+        "raw chicken",
+        "raw turkey",
+        "raw duck",
+        "raw goose",
+        "raw lamb",
+        "raw mutton",
+        "raw meat",
+        "raw fish",
+        "raw shellfish"
+    ],
+    "age_range_months": [
+        0,
+        60
+    ],
+    "top_n_default": 10,
+    "image_dependency": "Recommendations are nutrition-first and are not restricted to foods with images.",
+    "image_matching": "Handled separately by Part 7.",
+    "deep_learning_validation": "Handled separately by Part 8."
+}

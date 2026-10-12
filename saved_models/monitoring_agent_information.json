@@ -1,0 +1,21 @@
+{
+    "agent": "Child Nutrition Monitoring Agent",
+    "monitored_features": [
+        "age_months",
+        "weight_kg",
+        "height_cm",
+        "muac_cm",
+        "bmi"
+    ],
+    "age_range_months": [
+        0,
+        60
+    ],
+    "outputs": [
+        "visit comparison",
+        "measurement changes",
+        "growth observations",
+        "nutrition status trend",
+        "monitoring summary"
+    ]
+}

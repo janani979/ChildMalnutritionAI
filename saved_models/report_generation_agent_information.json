@@ -1,0 +1,21 @@
+{
+    "agent": "Report Generation Agent",
+    "report_sections": [
+        "User Information",
+        "BMI",
+        "Nutrition Prediction",
+        "Prediction Probabilities",
+        "Personalized Nutrient Priorities",
+        "Food Recommendations",
+        "Food Nutrient Information",
+        "Indian Food Images",
+        "Deep Learning Image Validation",
+        "SHAP Explanation",
+        "Meal Plan",
+        "Nutrition Advice",
+        "Malnutrition Prevention Advice",
+        "Monitoring"
+    ],
+    "output_format": "structured report data",
+    "final_pdf_generation": "Part 15"
+}

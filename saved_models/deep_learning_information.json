@@ -1,0 +1,41 @@
+{
+    "model": "MobileNetV2",
+    "transfer_learning": true,
+    "pretrained_weights": "ImageNet",
+    "input_size": [
+        224,
+        224,
+        3
+    ],
+    "number_of_classes": 94,
+    "all_nonempty_folders_included": true,
+    "single_image_classes_included_in_training": [
+        "banana_bread",
+        "bread_crumbs",
+        "breadnut_tree_seeds_dried",
+        "chickpeas_cooked",
+        "lentils_cooked",
+        "mustard_spinach_cooked",
+        "navy_beans_cooked",
+        "orange_roughy_cooked",
+        "peanuts_cooked",
+        "rice_flour_brown",
+        "soyabean_curd_chease",
+        "winged_beans",
+        "yougurt_low_fat"
+    ],
+    "two_image_classes_included_in_training": [],
+    "note": "Classes with one image are trained on that image, but cannot be independently validated or tested until more images are added.",
+    "number_of_training_images": 2814,
+    "number_of_validation_images": 561,
+    "number_of_test_images": 641,
+    "epochs_requested": 20,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "test_accuracy": 0.39781591263650545,
+    "test_precision": 0.4073123133043851,
+    "test_recall": 0.39781591263650545,
+    "test_f1": 0.36637820157822626,
+    "random_image_selection": false,
+    "image_validation_enabled": true
+}

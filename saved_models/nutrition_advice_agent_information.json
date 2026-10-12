@@ -1,0 +1,19 @@
+{
+    "agent": "Nutrition Advice / Malnutrition Prevention Agent",
+    "age_range_months": [
+        0,
+        60
+    ],
+    "priority_profiles": [
+        "normal",
+        "moderate",
+        "severe"
+    ],
+    "output_sections": [
+        "age_based_advice",
+        "nutrient_advice",
+        "food_based_advice",
+        "meal_plan_advice",
+        "prevention_advice"
+    ]
+}

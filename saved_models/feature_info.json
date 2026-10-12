@@ -1,0 +1,13 @@
+{
+    "selected_features": [
+        "age_months",
+        "weight_kg",
+        "height_cm",
+        "muac_cm",
+        "bmi"
+    ],
+    "target_column": "nutrition_status",
+    "age_min_months": 0,
+    "age_max_months": 60,
+    "bmi_formula": "weight_kg / (height_m ** 2)"
+}

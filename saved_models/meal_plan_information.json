@@ -1,0 +1,39 @@
+{
+    "agent": "Child Suitable Meal Plan Agent",
+    "meal_slots": [
+        "Breakfast",
+        "Mid-Morning",
+        "Lunch",
+        "Evening Snack",
+        "Dinner"
+    ],
+    "priority_profiles": {
+        "normal": [
+            "protein",
+            "calcium",
+            "iron",
+            "fiber",
+            "vitamin_a",
+            "vitamin_c"
+        ],
+        "moderate": [
+            "energy",
+            "protein",
+            "iron",
+            "calcium",
+            "zinc",
+            "vitamin_a",
+            "vitamin_c"
+        ],
+        "severe": [
+            "energy",
+            "protein",
+            "iron",
+            "calcium",
+            "zinc",
+            "vitamin_a",
+            "vitamin_c",
+            "vitamin_b12"
+        ]
+    }
+}

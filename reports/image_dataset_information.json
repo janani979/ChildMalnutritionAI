@@ -1,0 +1,11 @@
+{
+    "image_dataset": "C:\\indian_food_images\\Indian Food Images\\Indian Food Images",
+    "total_image_classes": 94,
+    "total_images": 4016,
+    "matching_order": [
+        "exact",
+        "related",
+        "none"
+    ],
+    "random_selection": false
+}

@@ -1,0 +1,17 @@
+{
+    "best_model": "LightGBM",
+    "features": [
+        "age_months",
+        "weight_kg",
+        "height_cm",
+        "muac_cm",
+        "bmi"
+    ],
+    "classes": [
+        "moderate",
+        "normal",
+        "severe"
+    ],
+    "explanation_type": "SHAP",
+    "global_importance_file": "C:\\Users\\janani karnan\\ChildNutritionAI\\reports\\shap_global_feature_importance.csv"
+}

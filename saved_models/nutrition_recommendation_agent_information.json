@@ -1,0 +1,67 @@
+{
+    "agent": "Child Nutrition Recommendation Agent",
+    "logic": "Nutrition-first child-suitable food recommendation",
+    "excluded": [
+        "raw",
+        "uncooked",
+        "frozen",
+        "powder",
+        "supplement",
+        "protein powder",
+        "alcohol",
+        "wine",
+        "beer",
+        "pie",
+        "cake",
+        "donut",
+        "doughnut",
+        "candy",
+        "chocolate",
+        "ice cream",
+        "cookie",
+        "biscuit",
+        "pizza",
+        "burger",
+        "hot dog",
+        "fries",
+        "chips",
+        "pork",
+        "turkey",
+        "bacon",
+        "ham",
+        "sausage",
+        "salami",
+        "cola",
+        "soft drink",
+        "soda"
+    ],
+    "priority_profiles": {
+        "normal": {
+            "protein": 1.0,
+            "calcium": 0.9,
+            "iron": 0.9,
+            "fiber": 0.75,
+            "vitamin_a": 0.75,
+            "vitamin_c": 0.7
+        },
+        "moderate": {
+            "energy": 1.0,
+            "protein": 1.0,
+            "iron": 0.95,
+            "calcium": 0.9,
+            "zinc": 0.85,
+            "vitamin_a": 0.8,
+            "vitamin_c": 0.75
+        },
+        "severe": {
+            "energy": 1.0,
+            "protein": 1.0,
+            "iron": 0.95,
+            "calcium": 0.9,
+            "zinc": 0.9,
+            "vitamin_a": 0.85,
+            "vitamin_c": 0.8,
+            "vitamin_b12": 0.75
+        }
+    }
+}

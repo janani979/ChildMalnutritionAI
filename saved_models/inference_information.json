@@ -1,0 +1,29 @@
+{
+    "best_model": "LightGBM",
+    "model_file": "C:\\Users\\janani karnan\\ChildNutritionAI\\saved_models\\best_nutrition_model.pkl",
+    "features": [
+        "age_months",
+        "weight_kg",
+        "height_cm",
+        "muac_cm",
+        "bmi"
+    ],
+    "classes": [
+        "moderate",
+        "normal",
+        "severe"
+    ],
+    "input_features": [
+        "age_months",
+        "weight_kg",
+        "height_cm",
+        "muac_cm"
+    ],
+    "calculated_features": [
+        "bmi"
+    ],
+    "age_range_months": {
+        "minimum": 0,
+        "maximum": 60
+    }
+}

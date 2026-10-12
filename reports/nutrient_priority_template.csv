@@ -1,0 +1,22 @@
+profile,nutrient,nutrient_name,priority_weight
+normal,protein,Protein,1.0
+normal,calcium,Calcium,0.9
+normal,iron,Iron,0.9
+normal,fiber,Dietary Fiber,0.75
+normal,vitamin_a,Vitamin A,0.75
+normal,vitamin_c,Vitamin C,0.7
+moderate,energy,Energy,1.0
+moderate,protein,Protein,1.0
+moderate,iron,Iron,0.95
+moderate,calcium,Calcium,0.9
+moderate,zinc,Zinc,0.85
+moderate,vitamin_a,Vitamin A,0.8
+moderate,vitamin_c,Vitamin C,0.75
+severe,energy,Energy,1.0
+severe,protein,Protein,1.0
+severe,iron,Iron,0.95
+severe,calcium,Calcium,0.9
+severe,zinc,Zinc,0.9
+severe,vitamin_a,Vitamin A,0.85
+severe,vitamin_c,Vitamin C,0.8
+severe,vitamin_b12,Vitamin B12,0.75

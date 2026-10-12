@@ -1,0 +1,25 @@
+{
+    "architecture": "Agentic AI Child Nutrition Recommendation and Malnutrition Prevention",
+    "agents": [
+        "Prediction Agent",
+        "Nutrient Analysis Agent",
+        "Nutrition Recommendation Agent",
+        "Image Matching Agent",
+        "Deep Learning Image Validation Agent",
+        "SHAP Explanation Agent",
+        "Meal Plan Agent",
+        "Nutrition Advice Agent",
+        "Report Agent"
+    ],
+    "user_inputs": [
+        "age_months",
+        "weight_kg",
+        "height_cm",
+        "muac_cm"
+    ],
+    "part_7_function_owner": "Part 7",
+    "part_7_function": "run_image_matching_agent",
+    "part_14_wrapper": "execute_image_matching_agent",
+    "deep_learning_retraining": false,
+    "part_15_provides_user_input": true
+}
